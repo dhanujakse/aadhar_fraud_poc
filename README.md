@@ -120,7 +120,7 @@ The system estimates age independently from face and iris images and compares th
 
 
 
-⚙️ Installation & Execution
+## ⚙️ Installation & Execution
 
 → Install required dependencies
 → pip install numpy opencv-python pillow flask torch torchvision
