@@ -7,14 +7,6 @@
 
 ---
 
-## 📌 Project Summary
-
-This project is a cybersecurity-focused Proof of Concept (POC) that detects Aadhaar identity fraud by verifying biological age consistency between facial biometrics and iris biometrics.
-
-The system identifies biologically impossible biometric combinations—such as an adult face paired with a child’s iris—which are commonly used in real-world Aadhaar fraud cases. By comparing age estimates derived from different biometric modalities, the system flags fraudulent enrollments that traditional biometric systems fail to detect.
-
----
-
 ## 🎯 Problem Statement
 
 Most biometric authentication systems verify face, iris, or fingerprints individually. Fraudsters exploit this gap by mixing biometrics from different individuals, allowing impersonation and large-scale identity fraud.
@@ -110,7 +102,7 @@ The system estimates age independently from face and iris images and compares th
 
 
 
-📂 Project Structure
+## 📂 Project Structure
   aadhar_fraud_poc/
   │
   ├── simple_age_estimator.py    
@@ -128,12 +120,12 @@ The system estimates age independently from face and iris images and compares th
 
 
 
-## ⚙️ Installation & Execution
+## Installation & Execution
+-> pip install numpy opencv-python pillow flask torch torchvision
+-> python generate_demo_data.py
+-> python simple_age_estimator.py
+-> python app.py
 
-pip install numpy opencv-python pillow flask torch torchvision
-python generate_demo_data.py
-python simple_age_estimator.py
-python app.py 
 
 Access the application at: http://localhost:5000
 
@@ -181,6 +173,13 @@ Hackathons
 Biometric fraud detection research
 
 Government identity systems (POC level)
+
+## 📌 Project Summary
+
+This project is a cybersecurity-focused Proof of Concept (POC) that detects Aadhaar identity fraud by verifying biological age consistency between facial biometrics and iris biometrics.
+
+The system identifies biologically impossible biometric combinations—such as an adult face paired with a child’s iris—which are commonly used in real-world Aadhaar fraud cases. By comparing age estimates derived from different biometric modalities, the system flags fraudulent enrollments that traditional biometric systems fail to detect.
+
 
 ## ⚠️ Disclaimer
 
