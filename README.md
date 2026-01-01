@@ -110,20 +110,19 @@ The system estimates age independently from face and iris images and compares th
 
 
 
-## 📂 Project Structure
-
+📂 Project Structure
 aadhar_fraud_poc/
 │
-├── simple_age_estimator.py # Age estimation logic
-├── generate_demo_data.py # Synthetic biometric data generator
-├── app.py # Flask backend
+├── simple_age_estimator.py    
+├── generate_demo_data.py       
+├── app.py                      
 │
 ├── data/
-│ ├── samples/ # Demo biometric images
-│ └── uploads/ # User uploads
+│   ├── samples/               
+│   └── uploads/               
 │
 ├── templates/
-│ └── index.html # Web interface
+│   └── index.html             
 │
 └── README.md
 
