@@ -120,14 +120,22 @@ The system estimates age independently from face and iris images and compares th
 
 
 
-## Installation & Execution
--> pip install numpy opencv-python pillow flask torch torchvision
--> python generate_demo_data.py
--> python simple_age_estimator.py
--> python app.py
+⚙️ Installation & Execution
 
+→ Install required dependencies
+→ pip install numpy opencv-python pillow flask torch torchvision
 
-Access the application at: http://localhost:5000
+→ Generate synthetic demo data
+→ python generate_demo_data.py
+
+→ Test face & iris age estimation
+→ python simple_age_estimator.py
+
+→ Start the web application
+→ python app.py
+
+→ Open browser and visit
+→ http://localhost:5000
 
 
 ## 🔍 Key Skills Demonstrated
