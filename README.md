@@ -92,25 +92,25 @@ The system estimates age independently from face and iris images and compares th
 
 ---
 
-🧰 Technology Stack
+## 🧰 Technology Stack
 
 **Programming & Frameworks**
 - Python
 - Flask
 
-Computer Vision & AI
+**Computer Vision & AI**
 - OpenCV
 - NumPy
 - Pillow
 
-Frontend
+**Frontend**
 - HTML
 - CSS
 - JavaScript
 
 
 
-📂 Project Structure
+## 📂 Project Structure
 
 aadhar_fraud_poc/
 │
@@ -129,7 +129,7 @@ aadhar_fraud_poc/
 
 
 
-⚙️ Installation & Execution
+## ⚙️ Installation & Execution
 
 pip install numpy opencv-python pillow flask torch torchvision
 python generate_demo_data.py
@@ -139,7 +139,7 @@ python app.py
 Access the application at: http://localhost:5000
 
 
-🔍 Key Skills Demonstrated
+## 🔍 Key Skills Demonstrated
 
 Cybersecurity and Fraud Detection
 
@@ -159,7 +159,7 @@ Risk Analysis
 
 Proof of Concept Development
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 Deep learning–based age estimation models
 
@@ -171,7 +171,7 @@ Fraud analytics dashboard
 
 Scalability for national identity systems
 
-📌 Use Cases
+## 📌 Use Cases
 
 Academic and final-year projects
 
@@ -183,7 +183,7 @@ Biometric fraud detection research
 
 Government identity systems (POC level)
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This project uses synthetic biometric data only.
 No real Aadhaar data is used.
