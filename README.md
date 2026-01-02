@@ -1,4 +1,4 @@
-# 🔐 Aadhaar Fraud Detection POC  
+#  Aadhaar Fraud Detection POC  
 ## Cross-Modal Biometric Age Consistency Verification System
 
 > **Domain:** Cybersecurity · Biometrics · Fraud Detection · Computer Vision · AI  
@@ -7,7 +7,7 @@
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Most biometric authentication systems verify face, iris, or fingerprints individually. Fraudsters exploit this gap by mixing biometrics from different individuals, allowing impersonation and large-scale identity fraud.
 
@@ -20,7 +20,7 @@ Existing systems do not verify whether multiple biometrics belong to the same bi
 
 ---
 
-## 💡 Proposed Solution
+##  Proposed Solution
 
 This project introduces a Cross-Modal Age Consistency Verification layer.
 
@@ -28,9 +28,9 @@ The system estimates age independently from face and iris images and compares th
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
-### 1️⃣ Face Age Estimation
+### 1️ Face Age Estimation
 - Face detection using OpenCV Haar Cascade
 - Feature extraction:
   - Texture variance
@@ -38,7 +38,7 @@ The system estimates age independently from face and iris images and compares th
   - Contrast and histogram spread
 - Age estimation using image-based heuristics
 
-### 2️⃣ Iris Age Estimation
+### 2️ Iris Age Estimation
 - Iris texture analysis
 - Feature extraction:
   - Crypt density
@@ -46,24 +46,24 @@ The system estimates age independently from face and iris images and compares th
   - Radial pattern variance
 - Biological age estimation
 
-### 3️⃣ Age Consistency Verification Engine
+### 3️ Age Consistency Verification Engine
 - Absolute age difference calculation
 - Threshold: 4 years
 - Decision outcomes:
-  - ✅ APPROVED
-  - ⚠ MANUAL_REVIEW
-  - ❌ FRAUD_DETECTED
+  -  APPROVED
+  -  MANUAL_REVIEW
+  -  FRAUD_DETECTED
 
 ---
 
-## 🧪 Test Scenarios & Results
+##  Test Scenarios & Results
 
 | Scenario | Face Age | Iris Age | Age Difference | Decision |
 |--------|---------|---------|---------------|---------|
-| Legitimate User | 28 | 27 | 1 year | ✅ APPROVED |
-| Rajasthan Fraud Case | 34 | 11 | 23 years | ❌ FRAUD_DETECTED |
-| UP Operator Fraud | 28 | 52 | 24 years | ❌ FRAUD_DETECTED |
-| Borderline Case | 32 | 26 | 6 years | ⚠ MANUAL_REVIEW |
+| Legitimate User | 28 | 27 | 1 year |  APPROVED |
+| Rajasthan Fraud Case | 34 | 11 | 23 years |  FRAUD_DETECTED |
+| UP Operator Fraud | 28 | 52 | 24 years |  FRAUD_DETECTED |
+| Borderline Case | 32 | 26 | 6 years |  MANUAL_REVIEW |
 
 - Fraud Detection Rate: 100% (demo cases)
 - False Rejection Rate: 0%
@@ -71,7 +71,7 @@ The system estimates age independently from face and iris images and compares th
 
 ---
 
-## 🌐 Web Application Features
+##  Web Application Features
 
 - Flask-based web interface
 - Upload face and iris images
@@ -84,7 +84,7 @@ The system estimates age independently from face and iris images and compares th
 
 ---
 
-## 🧰 Technology Stack
+##  Technology Stack
 
 **Programming & Frameworks**
 - Python
@@ -102,7 +102,7 @@ The system estimates age independently from face and iris images and compares th
 
 
 
-## 📂 Project Structure
+##  Project Structure
   aadhar_fraud_poc/
   │
   ├── simple_age_estimator.py    
@@ -120,7 +120,7 @@ The system estimates age independently from face and iris images and compares th
 
 
 
-## ⚙️ Installation & Execution
+##  Installation & Execution
 
 → Install required dependencies
 → pip install numpy opencv-python pillow flask torch torchvision
@@ -138,7 +138,7 @@ The system estimates age independently from face and iris images and compares th
 → http://localhost:5000
 
 
-## 🔍 Key Skills Demonstrated
+##  Key Skills Demonstrated
 
 Cybersecurity and Fraud Detection
 
@@ -158,7 +158,7 @@ Risk Analysis
 
 Proof of Concept Development
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 Deep learning–based age estimation models
 
@@ -170,7 +170,7 @@ Fraud analytics dashboard
 
 Scalability for national identity systems
 
-## 📌 Use Cases
+##  Use Cases
 
 Academic and final-year projects
 
@@ -182,14 +182,14 @@ Biometric fraud detection research
 
 Government identity systems (POC level)
 
-## 📌 Project Summary
+##  Project Summary
 
 This project is a cybersecurity-focused Proof of Concept (POC) that detects Aadhaar identity fraud by verifying biological age consistency between facial biometrics and iris biometrics.
 
 The system identifies biologically impossible biometric combinations—such as an adult face paired with a child’s iris—which are commonly used in real-world Aadhaar fraud cases. By comparing age estimates derived from different biometric modalities, the system flags fraudulent enrollments that traditional biometric systems fail to detect.
 
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This project uses synthetic biometric data only.
 No real Aadhaar data is used.
