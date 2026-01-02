@@ -54,6 +54,12 @@ The system estimates age independently from face and iris images and compares th
   -  MANUAL_REVIEW
   -  FRAUD_DETECTED
 
+
+## 🎯 Project Demo Preview
+
+![Aadhaar Fraud Detection Demo](demo.png)
+![Aadhaar Fraud Detection Demo](demo.png)
+
 ---
 
 ##  Test Scenarios & Results
