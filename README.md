@@ -58,15 +58,9 @@ The system estimates age independently from face and iris images and compares th
 ##  Project Demo Preview
 
 <p align="center">
-  <a href="full_vid.mp4">
-    <img src="Screenshot%202026-01-02%20165018.png" width="45%">
-  </a>
-  <a href="full_vid.mp4">
-    <img src="Screenshot%202026-01-02%20165041.png" width="45%">
-  </a>
+  <img src="Screenshot%202026-01-02%20165018.png" alt="Demo 1" width="45%">
+  <img src="Screenshot%202026-01-02%20165041.png" alt="Demo 2" width="45%">
 </p>
-
- [Watch Full Video](full_vid.mp4)
 
 ---
 
@@ -84,6 +78,11 @@ The system estimates age independently from face and iris images and compares th
 - Processing Time: ~4–6 seconds
 
 ---
+
+##  Full Project Video
+
+[![Watch Full Demo](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](full_vid.mp4)
+
 
 ##  Web Application Features
 
