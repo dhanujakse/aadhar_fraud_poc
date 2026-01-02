@@ -80,6 +80,11 @@ The system estimates age independently from face and iris images and compares th
 
 ---
 
+## 🎥 Project Demo Video
+
+🎬 [Watch or Download the Full Video](full_vid.mp4)
+
+
 ##  Web Application Features
 
 - Flask-based web interface
