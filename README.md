@@ -55,7 +55,7 @@ The system estimates age independently from face and iris images and compares th
   -  FRAUD_DETECTED
 
 
-## 🎯 Project Demo Preview
+## Project Demo Preview
 
 <p align="center">
   <img src="Screenshot%202026-01-02%20165018.png" alt="Demo 1" width="45%">
